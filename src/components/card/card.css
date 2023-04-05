@@ -1,26 +1,39 @@
 .card-container{
-    border-radius: 20%;
-    background-color: bisque;
-    min-width: 300px;
+    border-radius: 10%;
+    background-color: #F5F3C1;
     max-width: 400px;
-    max-height: 600px;
-    min-height: 400px;
+    min-width: 300px;
+    max-height: 800px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .card-title{
     padding: 0;
-
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
 }
 
 .card-image {
     border-radius: 10%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .button-container{
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.treasure-button{
+    background-color: green;
+}
+
+.trash-button{
+    background-color: red;
 }
