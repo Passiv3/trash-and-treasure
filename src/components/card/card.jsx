@@ -6,10 +6,12 @@ import './card.css'
 const Card = (props) => {
     return (
     <article className="card-container">
-        <h2 className="card-title"></h2>
-        <image></image>
-        <Button className = "trash-button"></Button>
-        <Button className = "treasure-button"></Button>
+        <h2 className="card-title">PlaceHolder Text</h2>
+        <img className="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Blue_Merle_Border_Collie._Female.jpg/1280px-Blue_Merle_Border_Collie._Female.jpg" />
+        <div className = "button-container">
+            <Button className = "trash-button" buttonText="trash"></Button>
+            <Button className = "treasure-button" buttonText="treasure"></Button>
+        </div>
     </article>
     );
 };

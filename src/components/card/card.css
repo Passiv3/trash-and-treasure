@@ -1,0 +1,25 @@
+.card-container{
+    border-radius: 20%;
+    background-color: bisque;
+    min-width: 300px;
+    max-width: 400px;
+    max-height: 600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title{
+    padding: 0;
+
+}
+
+.card-image {
+    border-radius: 10%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.button-container{
+    display: flex;
+}
