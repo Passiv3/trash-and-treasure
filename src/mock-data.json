@@ -1,0 +1,46 @@
+{
+    "users" : [
+        {
+            "userName" : "Danny22",
+            "userID" : 1,
+            "name" : "",
+            "number-of-items" : 3,
+            "owned-item-ids" : [1, 2, 3]
+        }
+    ],
+    "items": [
+        {
+            "user" : "Danny22",
+            "itemID" : 1,
+            "name" : "bricks",
+            "description" : "A cool brick",
+            "condition" : "light wear",
+            "image-link" : "https://www.restockchicago.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/u/supreme-brick-brick.jpg",
+            "image-description" : "An image of a brick with the word Supreme engraved in it",
+            "trash-rating": 5,
+            "treasure-rating": 20
+        },
+        { 
+            "user" : "Danny22",
+            "itemID" : 2,
+            "name" : "watch",
+            "description" : "A clean watch",
+            "condition" : "pristine",
+            "image-link" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-s8-og-202303_GEO_US?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1677202185380",
+            "image-description" : "An image of a watch",
+            "trash-rating": 2,
+            "treasure-rating" : 32
+        },
+        {
+            "user" : "Danny22",
+            "itemID" : 3,
+            "name" : "computer",
+            "description" : "a beast gaming rig",
+            "condition" : "heavily used",
+            "image-link" : "https://media.istockphoto.com/id/146952788/photo/old-pc-set.jpg?s=170667a&w=0&k=20&c=qzpFIWkL_Frlk80tDf02wY9c3b2Akn6PtVekFhBcbl0=",
+            "image-description": "An image of an old computer",
+            "trash-rating" : 19,
+            "treasure-rating" : 12
+        }
+    ]
+}
