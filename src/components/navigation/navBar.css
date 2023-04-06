@@ -15,4 +15,29 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: antiquewhite;
+    flex-grow: 1;
 }
+
+.title-link{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.link-container{
+    margin-right: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 20px;
+    color: antiquewhite;
+}
+
+.link:hover{
+    background-color: #27E1C1;
+}
+
