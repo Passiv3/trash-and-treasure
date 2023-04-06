@@ -5,6 +5,7 @@ import App from './App';
 import ErrorPage from './pages/errorPage';
 import LoginPage from './pages/loginPage';
 import AboutPage from './pages/aboutPage';
+import FrontPage from './pages/frontPage';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: '/front',
+        element: <FrontPage />
+      },
       {
         path: '/login',
         element: <LoginPage />
