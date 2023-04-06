@@ -34,6 +34,15 @@
     background-color: green;
 }
 
+.treasure-button:active{
+    background-color: darkgreen;
+}
+
 .trash-button{
     background-color: red;
+    
+}
+
+.trash-button:active{
+    background-color: darkred;
 }
