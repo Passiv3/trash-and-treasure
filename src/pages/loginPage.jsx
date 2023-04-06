@@ -1,6 +1,6 @@
 import React from 'react'
 
-LoginPage = () => {
+const LoginPage = () => {
     return(<h1>LoginPage</h1>);
 }
 

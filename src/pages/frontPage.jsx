@@ -1,6 +1,6 @@
 import React from 'react'
 
-FrontPage = () => {
+const FrontPage = () => {
     return(<h1>FrontPage</h1>);
 }
 

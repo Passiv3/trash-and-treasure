@@ -1,6 +1,6 @@
 import React from 'react'
 
-PersonalPage = () => {
+const PersonalPage = () => {
     return(<h1>PersonalPage</h1>);
 }
 

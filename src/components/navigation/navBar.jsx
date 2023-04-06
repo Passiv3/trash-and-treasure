@@ -7,8 +7,8 @@ const NavBar = () => {
     <div className = "navbar-container">
         <h1 className="website-name"><a className="title-link" href={`/`}>Trash & Treasure</a></h1>
         <nav className="link-container">
-            <a className="link" href={`/aboutPage`}>About</a>
-            <a className="link" href={`/loginPage`}>Login</a>
+            <a className="link" href={`/about`}>About</a>
+            <a className="link" href={`/login`}>Login</a>
         </nav>
     </div>
     )
