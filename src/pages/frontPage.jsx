@@ -8,7 +8,12 @@ import './pagestyles.css';
     This will be responsible for loading data from the database into cards for display
 */
 const FrontPage = () => {
-    return(<h1>FrontPage</h1>);
+    let itemData = MockData.items;
+    return(
+        <div className="front-page-container">
+            <Card title="He" image-link="" image-description=""/>
+        </div>
+    );
 }
 
 export default FrontPage;
