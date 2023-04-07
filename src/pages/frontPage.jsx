@@ -10,8 +10,12 @@ import './pagestyles.css';
 const FrontPage = () => {
     let itemData = MockData.items;
     return(
-        <div className="front-page-container">
-            <Card title="He" image-link="" image-description=""/>
+        <div className="main-content">
+            <div className = "container">
+                {itemData.map((item) => (<Card key={item.itemID} title={item.name} imageLink={item['image-link']}/>))}
+                
+            </div>
+            
         </div>
     );
 }
