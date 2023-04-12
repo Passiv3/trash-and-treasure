@@ -6,6 +6,7 @@ import ErrorPage from './pages/errorPage';
 import LoginPage from './pages/loginPage';
 import AboutPage from './pages/aboutPage';
 import FrontPage from './pages/frontPage';
+import AddPage from './pages/addPage';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <AboutPage />
+      },
+      {
+        path: '/new',
+        element: <AddPage />
       }
     ]
   },
