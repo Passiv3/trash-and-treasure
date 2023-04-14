@@ -5,7 +5,7 @@ import './navBar.css';
 const NavBar = () => {
     return (
     <div className = "navbar-container">
-        <h1 className="website-name"><Link to={`/front`} className="title-link">Trash & Treasure</Link></h1>
+        <h1 className="website-name"><Link to={`/`} className="title-link">Trash & Treasure</Link></h1>
         <nav className="link-container">
             <Link to={`/new`} className="link">Add an Item!</Link>
             <Link to={`/about`} className="link">About</Link>

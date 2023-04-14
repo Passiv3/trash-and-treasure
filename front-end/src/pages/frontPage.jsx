@@ -12,7 +12,7 @@ const FrontPage = () => {
     return(
         <div className="main-content">
             <div className = "container">
-                {itemData.map((item) => (<Card key={item.itemID} title={item.name} imageLink={item['image-link']}/>))}
+                {itemData.map((item) => (<Card key={item.itemID} title={item.name} imageLink={item['image-link']} trashCount={item['trash-rating']} treasureCount={item['treasure-rating']}/>))}
                 
             </div>
             
